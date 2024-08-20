@@ -13,13 +13,13 @@ const texts = [
 ];
 
 const images = [
-    'stiker/gombal.gif',
-    'stiker/sedih.gif',
-    'stiker/nangis.gif',
-    'stiker/peluk.gif',
-    'stiker/khawatir.gif',
-    'stiker/love.gif',  // Gambar untuk respons Yes
-    'stiker/nangis.gif',  // Gambar untuk respons No
+    'gombal.gif',
+    'sedih.gif',
+    'nangis.gif',
+    'peluk.gif',
+    'khawatir.gif',
+    'love.gif',  // Gambar untuk respons Yes
+    'nangis.gif',  // Gambar untuk respons No
 ];
 
 let index = 0;

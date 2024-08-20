@@ -1,0 +1,61 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('gambar/wallpaper.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #61dafb;
+  font-family: 'Verdana';
+}
+
+.container {
+  text-align: center;
+}
+
+#imageContainer {
+  margin-bottom: 20px;
+}
+
+#animatedImage {
+  width: 200px;
+  height: auto;
+  transition: opacity 0.3s ease;
+}
+
+#text {
+  font-size: 24px;
+  margin-bottom: 20px;
+  position: relative;
+  padding: 10px;
+  background-color: rgba(72, 66, 66, 0.8);
+  border-radius: 10px;
+  display: inline-block;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#nextBtn, #yesBtn, #noBtn {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #61dafb;
+  color: #282c34;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+#nextBtn:hover, #yesBtn:hover, #noBtn:hover {
+  background-color: #ffffff;
+  color: #61dafb;
+  transform: translateY(-5px);
+}
+
+#nextBtn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

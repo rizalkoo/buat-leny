@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buat Leny</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+    
+<body>
+    <!-- Lagu -->
+    <audio id="backgroundMusic" autoplay loop>
+        <source src="musik/favleny.mp3" type="audio/mp3">
+    </audio>
+    <!-- Akhir Lagu -->
+
+    <!-- Konten Animasi Mengetik -->
+    <div class="container">
+        <!-- Gambar Animasi -->
+        <div id="imageContainer">
+            <img id="animatedImage" src="stiker/gombal.gif" alt="Animasi" />
+        </div>
+        <!-- Akhir Gambar Animasi -->
+
+        <div id="text"></div><br>
+        <button id="nextBtn" onclick="nextText()" disabled>Next</button>
+        <div id="feedbackSection" style="display: none;">
+            <button id="yesBtn" onclick="sendFeedback('Yes')">Iya Rizal</button>
+            <button id="noBtn" onclick="sendFeedback('No')">Aku Mau Sedih Terus</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

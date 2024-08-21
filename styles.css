@@ -3,7 +3,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: url('gambar/wallpaper.jpg');
+  background-image: url('wallpaper.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
